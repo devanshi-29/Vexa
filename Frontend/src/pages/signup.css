@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.signup-page {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url('../assets/Vexa_Assistant.png');
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  padding-left: 10%;
+}
+
+/* Signup Card */
+.signup-form {
+  width: 400px;
+  padding: 35px;
+
+  background: white;
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.signup-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.signup-title span {
+  color: #2563eb;
+}
+
+/* Inputs */
+.signup-input {
+  width: 100%;
+  height: 48px;
+
+  padding: 0 15px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  outline: none;
+  font-size: 15px;
+}
+
+.signup-input:focus {
+  border-color: #2563eb;
+}
+
+/* Password */
+.password-box {
+  position: relative;
+  width: 100%;
+}
+
+.password-input {
+  padding-right: 45px;
+}
+
+.password-icon {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+
+  cursor: pointer;
+  color: #555;
+}
+
+/* Signup Button */
+.signup-button {
+  width: 40%;
+  align-self: center;
+
+  height: 48px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #2563eb;
+  color: white;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background: #1d4ed8;
+}
+
+/* Sign In Text */
+.signin-text {
+  text-align: center;
+
+  font-size: 14px;
+  color: #555;
+
+  cursor: pointer;
+}
+
+.signin-text span {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.signin-text span:hover {
+  text-decoration: underline;
+}
